@@ -13,6 +13,7 @@
 				<hr />
 				<span>
 				<h3>
+				<!--
 				@if($activeBans->count() > 0)
 					<i class="fa fa-ban" data-toggle="tooltip" data-placement="top" title="{{ trans('app.currentlyBanned') }}"></i>
 				@endif
@@ -22,6 +23,7 @@
 				@if($activeBans->count() <= 0 && $activeMutes->count() <= 0)
 					{{ trans('app.currentlyNotPunished') }}
 				@endif
+				-->
 				</h3>
 				</span>
 
