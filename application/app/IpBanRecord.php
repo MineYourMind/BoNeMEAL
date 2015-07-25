@@ -8,7 +8,7 @@ class IpBanRecord extends Model {
 
 	protected $hidden = ['actor_id', 'pastActor_id'];
 
-	protected $table = 'ip_ban_records';
+	protected $table = 'new_ip_ban_records';
 
 	public function getActorUuidAttribute()
 	{	
